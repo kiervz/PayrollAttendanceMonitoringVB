@@ -7,6 +7,13 @@ Module ConnectionString
     Public dr As SqlDataReader
     Public str As String
 
+    Public UserID As String
+    Public UserPass As String
+    Public Firstname As String
+    Public Middlename As String
+    Public Lastname As String
+    Public UserType As String
+
     Public Sub Connect()
         Try
             If sqlconn.State = ConnectionState.Open Then sqlconn.Close()

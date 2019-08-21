@@ -106,6 +106,12 @@
     </Compile>
     <Compile Include="AppData.vb" />
     <Compile Include="ConnectionString.vb" />
+    <Compile Include="frmEmployeeRegistration.Designer.vb">
+      <DependentUpon>frmEmployeeRegistration.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEmployeeRegistration.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmLogin.Designer.vb">
       <DependentUpon>frmLogin.vb</DependentUpon>
     </Compile>
@@ -118,6 +124,13 @@
     <Compile Include="frmMain.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmRegisterUser.Designer.vb">
+      <DependentUpon>frmRegisterUser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRegisterUser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MetroMsgBox.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -133,10 +146,43 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="ucDailyAttendance.Designer.vb">
+      <DependentUpon>ucDailyAttendance.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ucDailyAttendance.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucDashboard.Designer.vb">
+      <DependentUpon>ucDashboard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ucDashboard.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucEmployeeManagement.Designer.vb">
+      <DependentUpon>ucEmployeeManagement.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ucEmployeeManagement.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucEmployeePayroll.Designer.vb">
+      <DependentUpon>ucEmployeePayroll.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ucEmployeePayroll.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucUserManagement.Designer.vb">
+      <DependentUpon>ucUserManagement.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ucUserManagement.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="1st.resx">
       <DependentUpon>1st.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEmployeeRegistration.resx">
+      <DependentUpon>frmEmployeeRegistration.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmLogin.resx">
       <DependentUpon>frmLogin.vb</DependentUpon>
@@ -144,11 +190,29 @@
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmRegisterUser.resx">
+      <DependentUpon>frmRegisterUser.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucDailyAttendance.resx">
+      <DependentUpon>ucDailyAttendance.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucDashboard.resx">
+      <DependentUpon>ucDashboard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucEmployeeManagement.resx">
+      <DependentUpon>ucEmployeeManagement.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucEmployeePayroll.resx">
+      <DependentUpon>ucEmployeePayroll.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucUserManagement.resx">
+      <DependentUpon>ucUserManagement.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -163,6 +227,9 @@
     </None>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\no_image.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -118,7 +118,24 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="Button6.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnClose.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAACpSURBVEhLY3Av8GGgJaap4SCH09eC/1QCyEGO4gMqmf9/ZFlwHRhsDkD8HEvwvQKKOQHxJXQ5
+        UoLICaQYaIAOEIMMhAEQWwcqB7IEBZBiAcggXahBGlCfYBMj2wKQRmTXgnwCczm6r+CWkOID5CAB+wTN
+        N1hT9qCzgKZBRPNIpnkyvQzNTMh5ADniQXkApIaiZIo1peATJCcVkWTJMLaAFpU/fetkWvgAAGTFviKG
+        p60sAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnMinimize.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAB2SURBVEhLY3Av8GGgJaap4SCH09eC////ewPxEyAmFzwGavREDnIUHwAlQQooBY/wWUCp4WD9
+        oxYQDMbRIBoNIoIhQFABSamIUFGOzbbBZQHB8MCigCQfUNsCmhfXnhTWCY+A+j1wBhGhFEOOPH3rZHJc
+        SEgPABOS1ufNXCKrAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnSettings.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
         YQUAAADiSURBVEhLzVVRDsIwCN1B9HtH0UUP47W2mHin6aca5wXwkaBhEyrGViUh3bpXXgd9tFps1lVJ
@@ -128,7 +145,7 @@
         AAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="Button5.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnUserManagement.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
         YQUAAADiSURBVEhLzVVRDsIwCN1B9HtH0UUP47W2mHin6aca5wXwkaBhEyrGViUh3bpXXgd9tFps1lVJ
@@ -138,7 +155,7 @@
         AAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="Button4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnEmployeeManagement.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
         YQUAAADiSURBVEhLzVVRDsIwCN1B9HtH0UUP47W2mHin6aca5wXwkaBhEyrGViUh3bpXXgd9tFps1lVJ
@@ -148,7 +165,7 @@
         AAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="Button3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnReports.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
         YQUAAADiSURBVEhLzVVRDsIwCN1B9HtH0UUP47W2mHin6aca5wXwkaBhEyrGViUh3bpXXgd9tFps1lVJ
@@ -158,7 +175,7 @@
         AAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="Button2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnPayroll.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
         YQUAAADiSURBVEhLzVVRDsIwCN1B9HtH0UUP47W2mHin6aca5wXwkaBhEyrGViUh3bpXXgd9tFps1lVJ
@@ -168,7 +185,7 @@
         AAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="Button1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnMonitoring.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
         YQUAAADiSURBVEhLzVVRDsIwCN1B9HtH0UUP47W2mHin6aca5wXwkaBhEyrGViUh3bpXXgd9tFps1lVJ
@@ -178,7 +195,7 @@
         AAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="btnLogin.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnDashboard.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
         YQUAAADiSURBVEhLzVVRDsIwCN1B9HtH0UUP47W2mHin6aca5wXwkaBhEyrGViUh3bpXXgd9tFps1lVJ
